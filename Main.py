@@ -22,7 +22,7 @@ with open('style.css')as f:
 
 UI()
 #load dataset
-df=pd.read_csv('Global-Superstore - Global-Superstore.csv')
+df=pd.read_csv('data.csv')
 
 st.sidebar.image("images/logo2.png")
 #filter date to view data
